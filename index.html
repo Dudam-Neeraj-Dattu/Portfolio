@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neeraj Dattu - Portfolio Website </title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="icon" href="favicon.ico"> -->
+    <link rel="shortcut icon" type="image/jpg" href="images/DND.png"/>
+    <script src="https://kit.fontawesome.com/cc2d7337d9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav id="navbar">
+                <img src="images/logo2.png" class ="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#statistics">Statistics</a></li>
+                    <li><a href="#contact">Contact</a></li>                    
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">                
+                <h1>Hi, I'm <span>Neeraj Dattu</span></h1>
+                <h1 class="small-screen">Neeraj Dattu</h1>
+                <h4 id="welcome">Welcome to my Portfolio</h4>
+            </div>
+        </div>
+    </div>
+    <!-- ------------about-------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user2.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="about-me">I started learning to code when I have completed my intermediate thought it was more of a hobby than a career focus. While getting a college seat in Metallurgical and Materials Engineering, and continuing to pursue that hobby, I realized software engineering was the right field for me.
+
+                        <br><br>Since then, I'm getting familiar with a variety of programming languages, including C, C++, Python, HTML, CSS but I'm always adding new skills to my repertoire.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('courses')">Courses</p>
+                        <p class="tab-links" onclick="opentab('achievements')">Achievements</p>
+                    </div>
+                    <div class="tab-contents active-tab" id = "education">
+                        <table>
+                            <tr>                                
+                                <td colspan="3" class="course course1">B.tech in Metallurgical and Materials Engineering</td>                                                                
+                            </tr>
+                            <tr>
+                                <td class="college">National Institute of Technology Warangal</td>
+                                <td class="col-2 marks">CGPA : 8.44</td>
+                            </tr>
+                        
+                            <tr>
+                                <td class="year">2019 - 2023</td>
+                                <td class="col-2 marks1">CGPA : 8.44</td>
+
+                            </tr>
+                            <tr>
+                                <td></td>
+                            </tr>
+                            <tr>                                
+                                <td colspan="3" class="course">Intermediate</td>                                                                
+                            </tr>
+                            <tr>
+                                <td class="college">Narayana Junior College</td>
+                                <td class="col-2 marks">Percentage : 98.7%</td>
+                            </tr>
+                            <tr>
+                                <td class="year">2017 - 2019</td>
+                                <td class="col-2 marks1">Percentage : 98.7%</td>
+
+                            </tr>
+                            <tr>
+                                <td></td>
+                            </tr>
+                            <tr>                                
+                                <td colspan="3" class="course">SSC</td>                                                                
+                            </tr>
+                            <tr>
+                                <td class="college">JSM High School</td>
+                                <td class="col-2 marks">GPA : 10.0</td>
+                            </tr>
+                            <tr>
+                                <td class="year">2014 - 2017</td>
+                                <td class="col-2 marks1">GPA : 10.0</td>
+
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tab-contents Courses" id="courses">
+                        <table>
+                            <tr>
+                                <td class="col-1">Database Management System</td>
+                                <td class="col-2">November 2022</td>
+                            </tr>
+                            <tr>
+                                <td class="col-1">SQL for Everybody</td>
+                                <td class="col-2">October 2022</td>
+                            </tr>
+                            <tr>
+                                <td class="col-1">Front-End Web Development</td>
+                                <td class="col-2">July 2022</td>
+                            </tr>
+                            <tr>
+                                <td class="col-1">Mastering Data Structures and Algorithms</td>
+                                <td class="col-2">May 2022</td>
+                            </tr>
+                            <tr>
+                                <td class="col-1">Python for Everybody</td>
+                                <td class="col-2">April 2022</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tab-contents Achievements" id="achievements">
+
+                        <table>
+                            <tr>
+                                <td class="col-1">Awarded Institute Merit Scholorship, NIT Warangal</td>
+                                <td class="col-2">October 2022</td>
+                            </tr>
+                            <tr>
+                                <td class="col-1">Secured 14th among 12000 participants in Online Hackathon Festival by Unstop</td>
+                                <td class="col-2">April 2022</td>
+                            </tr>
+                            <tr>
+                                <td class="col-1">State Topper in Telangana Polytechnic Entrance Exam</td>
+                                <td class="col-2">May 2022</td>
+                            </tr>
+                            <tr>
+                                <td class="col-1">State Topper in Srinivasa Ramanujan Maths Olympiad</td>
+                                <td class="col-2">January 2022</td>
+                            </tr>
+                            <tr>
+                                <td class="col-1">District Topper in Srinivasa Ramanujan Maths Olympiad</td>
+                                <td class="col-2">February 2022</td>
+                            </tr>
+                        </table>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------Skills-------------- -->
+    <div id="skills">
+        <div class="container">
+            <h1 class="sub-title">MY Skills</h1>
+            
+            <div class="skills-list">
+                <div>
+                    <img id = "C" src="images/C-removebg-preview.png" alt="">
+
+                </div>
+                <div>
+                    <img id = "CC" src="images/c++_new.png" alt="">
+                </div>
+                <div>
+                    <img src="images/html-removebg-preview.png" alt="">
+                </div>
+                <div>
+                    <img src="images/css-removebg-preview.png" alt="">
+                </div>
+                <div>
+                    <img src="images/python1.png" alt="">
+                </div>
+                <div>
+                    <img src="images/sql-removebg-preview1.png" alt="">
+                </div>
+            </div>
+            
+        </div>
+    </div>
+ <!-- ------------projects-------------- -->
+ <div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="project-list">
+            <div class="project">
+                <img src="images/mywebsite2.png" alt="">
+                <div class="layer">
+                    <h3>My Portfoilo</h3>
+                    <p>This is my portfolio which is made by using HTMl, CSS and Javascript</p>
+                    <a href="https://github.com/Dudam-Neeraj-Dattu/Portfolio"><i class="fa-solid fa-up-right-from-square"></i></a> <!--add github link here-->
+                </div>
+            </div>
+            <div class="project"> 
+                <img src="images/joke.png" alt="">
+                <div class="layer">
+                    <h3>Reload Jokes</h3>
+                    <p>It is a simple browser extension that on click gets a random joke every time that makes you smile</p>
+                    <a href="https://github.com/Dudam-Neeraj-Dattu/Reload-Jokes"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="project"> 
+                <img src="images/first_website.png" alt="">
+                <div class="layer">
+                    <h3>My First Website</h3> 
+                    <p>This is my first website using pure HTML and CSS</p>
+                    <a href="https://github.com/Dudam-Neeraj-Dattu/My-First-HTML-and-CSS-website"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>            
+
+        </div>
+        <!-- <a href="#" class="btn">See more</a> -->
+    </div>
+ </div>
+
+ <!-- ----------------statistics-------------- -->
+ <div id="statistics">
+    <div class="container">
+        <h1 class="sub-title">My Statistics</h1>
+        <div class="project-list statistics-list">
+            <div class="project statistics">
+                <img src="images/codestudio_statistics.png" alt="">
+                <div class="layer statistics">
+                    <h3>Codestudio</h3>
+                    <p>This is my progress in my DSA journey in codestudio by codingninjas</p>
+                    <a href="https://www.codingninjas.com/codestudio/profile/Neeraj_Dudam"><i class="fa-solid fa-up-right-from-square"></i></a> <!--add github link here-->
+                </div>
+            </div>
+            <div class="project statistics">
+                <img src="images/leetcode_statistics.png" alt="">
+                <div class="layer statistics">
+                    <h3>Leetcode</h3>
+                    <p>This is my progress in my DSA Journey in Leetcode</p>
+                    <a href="https://leetcode.com/D_Neeraj_Dattu/"><i class="fa-solid fa-up-right-from-square"></i></a> <!--add github link here-->
+                </div>
+            </div>
+            <div class="project statistics"> 
+                               
+            </div>
+
+        </div>
+        <!-- <a href="#" class="btn">See more</a> -->
+    </div>
+ </div>
+
+ <!-- ------------contact-------------- -->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i><a href="mailto:dudamneerajdattu2001@outlook.com">dudamneerajdattu2001@outlook.com</a></p>
+                <p><i class="fa-solid fa-square-phone"></i>+91 9390618882</p>
+                <div class="social-icons">                    
+                    <a href="https://www.linkedin.com/in/neeraj-dattu-dudam"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Dudam-Neeraj-Dattu"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://twitter.com/DattuDudam"><i class="fa-brands fa-twitter"></i></a>                                        
+                    <a href="https://www.instagram.com/dudamdattu/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100068126956344"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+                <a href="images/Neeraj Dattu Dudam_Resume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name = "Name" placeholder="Your Name" required>
+                    <input type="email" name = "Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="5" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2022 Neeraj Dattu Dudam</p>
+    </div>
+ </div>
+
+<script>
+    
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname) {
+        for(tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+    function openmenu() {
+        sidemeu.style.right ="0";
+    }
+    function closemenu() {
+        sidemeu.style.right ="-200px";
+    }
+
+
+</script>
+</body>
+</html>
