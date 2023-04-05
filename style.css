@@ -136,7 +136,7 @@ nav ul li a:hover::after{
 
 .tab-links {
     margin-right: 50px;
-    font-size: 18px;
+    font-size: 120%;
     font-weight: 500;
     cursor: pointer;
     position: relative;
@@ -178,13 +178,13 @@ nav ul li a:hover::after{
 
 .tab-contents table .col-1{
     width: 70%;
-    font-size: 90%;
+    font-size: 100%;
 }
 .tab-contents table .col-2{
     text-align: right;
     color: #ff004f;
     font-style: italic;
-    font-size: 78%;
+    font-size: 85%;
 }
 
 .tab-contents table .course{
@@ -368,7 +368,11 @@ nav ul li a:hover::after{
  }
 
  .layer.statistics h3{
-    font-size: 150%;
+    font-size: 25px;
+ }
+
+p.statistics_details{
+    font-size: 16px;
  }
 
  .layer a{
@@ -501,6 +505,8 @@ nav .fas{
 
 p.about-me{
     padding-top: 3%;
+    font-size: 110%;
+
 }
 
 
@@ -783,4 +789,14 @@ p.about-me{
  *{
     font-size: 14px;
   }
+  .project p.project_details {
+    font-size: 14px;
+    }
+
+    p.statistics_details {
+        font-size: 14px;
+    }
+    .fa, .fa-brands, .fa-classic, .fa-regular, .fa-sharp, .fa-solid, .fab, .far, .fas {
+        font-size: 25px
+    }
 }
