@@ -639,13 +639,13 @@ p.about-me{
 .tab-contents table .col-1{
     padding-top: 8%;
     width: 70%;
-    font-size: 85%;
+    /* font-size: 85%; */
 }
 .tab-contents table .col-2{
     text-align: right;
     color: #ff004f;
     font-style: italic;
-    font-size: 65%;
+    font-size: 13px;
     display: block;
     padding-top: 32px;
 }
@@ -666,7 +666,7 @@ p.about-me{
 
 .tab-contents table .college{
     padding-top: 3%;
-    font-size: 90%;
+    /* font-size: 90%; */
 }
 
 .tab-contents table .col-2.marks{
@@ -676,7 +676,7 @@ p.about-me{
 }
 
 .tab-contents table .col-2.marks1{
-    font-size: 74%;
+    /* font-size: 74%; */
     display: inline;
     font-weight: 600;
 }
@@ -798,5 +798,12 @@ p.about-me{
     }
     .fa, .fa-brands, .fa-classic, .fa-regular, .fa-sharp, .fa-solid, .fab, .far, .fas {
         font-size: 25px
+    }
+
+    p.contactme{
+        font-size: 15px;
+    }
+    a.contactme{
+        font-size: 15px;
     }
 }
